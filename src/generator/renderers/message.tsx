@@ -71,6 +71,8 @@ export default async function DiscordMessage({
       {message.components.length > 0 && (
         <DiscordAttachments slot="components">
           {message.components.map((component, id) => (
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             <ComponentRow key={id} id={id} row={component} />
           ))}
         </DiscordAttachments>

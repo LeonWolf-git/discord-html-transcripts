@@ -15,6 +15,7 @@ export default function ComponentRow({ row, id }: { row: ActionRow<MessageAction
 
 const ButtonStyleMapping = {
   [ButtonStyle.Primary]: 'primary',
+  [ButtonStyle.Premium]: 'primary',
   [ButtonStyle.Secondary]: 'secondary',
   [ButtonStyle.Success]: 'success',
   [ButtonStyle.Danger]: 'destructive',
